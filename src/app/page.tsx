@@ -1,7 +1,14 @@
-import './WavyBackground.css';
+import React from 'react';
+import Landingpart from "@/components/landingpart";
+import CleanCards from "@/components/cleancards";
 
-export default function Home() {
+const CompilerPage = () => {
   return (
-    <></>
+  <>
+  <Landingpart/>
+  <CleanCards/>
+  </>
   );
-}
+};
+
+export default CompilerPage;

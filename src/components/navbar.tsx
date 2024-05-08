@@ -34,7 +34,7 @@ export default function App() {
 
             <NavbarContent className="hidden sm:flex gap-4" justify="center" style={{ gap: '50px' }}>
                 <NavbarItem>
-                    <Link color="foreground" href="/Compiler">
+                    <Link color="foreground" href="/">
                         Compiler
                     </Link>
                 </NavbarItem>
