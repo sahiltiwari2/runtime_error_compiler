@@ -8,7 +8,7 @@ const page = () => {
   return (
     <>
     <PracticalLand/>
-    <Cources name="BCA"/>
+    <Cources name="BCAA"/>
     <BACYears/>
     <Cources name="B-Tech"/>
     <BTechYears/>
