@@ -10,7 +10,7 @@ const page = () => {
     <PracticalLand/>
     <Cources name="BCA"/>
     <BACYears/>
-    <Cources name="B-TECH"/>
+    <Cources name="B-Tech"/>
     <BTechYears/>
 
     </>
