@@ -4,7 +4,6 @@
 import React from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button } from "@nextui-org/react";
 import { useTheme } from 'next-themes';
-import { ThemeToggle } from "./themeToggel";
 
 
 
@@ -51,7 +50,6 @@ export default function App() {
             </NavbarContent>
             <NavbarContent justify="end">
                 <NavbarItem>
-                    <ThemeToggle />
                 </NavbarItem>
             </NavbarContent>
             <NavbarContent justify="end">
