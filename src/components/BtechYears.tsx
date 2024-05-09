@@ -5,25 +5,25 @@ const projects = [
     title: "1st Year",
     description:
       "Codes for Semister 1 and 2.",
-    link: "/",
+    link: "/SEMPages/BTechSem1",
   },
   {
     title: "2nd Year",
     description:
       "Codes for Semister 3 and 4.",
-    link: "https://www.linkedin.com/pulse/power-clean-code-why-matters-how-benefits-your-projects-sahoo-f9tgc/",
+    link: "/SEMPages/BTechSem2",
   },
   {
     title: "3rd Year",
     description:
       " Codes for Semister 5 and 6.",
-    link: "https://community.sonarsource.com/t/clean-as-you-code-how-to-win-at-code-quality-without-even-trying/19001",
+    link: "/SEMPages/BTechSem3",
   },
   {
     title: "4Th Year",
     description:
       " Codes for Semister 7 and 8.",
-    link: "https://community.sonarsource.com/t/clean-as-you-code-how-to-win-at-code-quality-without-even-trying/19001",
+    link: "/SEMPages/BTechSem4",
   },
 ];
 
