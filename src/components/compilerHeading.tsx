@@ -10,7 +10,7 @@ export default function HoverBorderGradientDemo() {
         as="text"
         className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2 p-4 border-4 border-black text-4xl font-bold"
       >
-        Compile Here !!
+       !! Compile Here !!
       </HoverBorderGradient>
     </div>
   );
