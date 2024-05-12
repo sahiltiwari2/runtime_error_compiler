@@ -2,12 +2,13 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
+import Link from 'next/link';
 
 const CanvasRevealEffectDemo = () => {
   return (
     <>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
+      <Link href="">
         <Card title="TRANSPOSE OF MATRIX USING ARRAY" number="Practical 1">
           <CanvasRevealEffect
             animationSpeed={3}
@@ -15,12 +16,16 @@ const CanvasRevealEffectDemo = () => {
             colors={[[125, 211, 252]]}
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="ADD AND DELETE THE ELMENT FROM ARRAY" number="Practical 2">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="ARRAY IMPLEMENTATION OF STACK " number="Practical 3">
           <CanvasRevealEffect
             animationSpeed={3}
@@ -28,12 +33,16 @@ const CanvasRevealEffectDemo = () => {
             colors={[[125, 211, 252]]}
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="ARRAY IMPLEMENTATION OF QUEUE" number="Practical 4">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="LINKED LIST IMPLEMENTATION OF STACK" number="Practical 5">
           <CanvasRevealEffect
             animationSpeed={3}
@@ -41,20 +50,26 @@ const CanvasRevealEffectDemo = () => {
             colors={[[125, 211, 252]]}
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="LINKED LIST IMPLEMENTATION OF QUEUE " number="Practical 6">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
+        </Link>
       </div>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
+        <Link href="">
       <Card title="EXPRESSION EVALUATION" number="Practical 7">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="IMPLEMENTATION OF BINARY SEARCH TREES" number="Practical 8">
           <CanvasRevealEffect
             animationSpeed={3}
@@ -62,12 +77,16 @@ const CanvasRevealEffectDemo = () => {
             colors={[[125, 211, 252]]}
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="REPRESENTATION OF TREE" number="Practical 9">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="TREE TRAVERSAL-SEARCHING,DELETING " number="Practical 10">
           <CanvasRevealEffect
             animationSpeed={3}
@@ -75,12 +94,16 @@ const CanvasRevealEffectDemo = () => {
             colors={[[125, 211, 252]]}
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="LINEAR SEARCH " number="Practical 11">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
+        </Link>
+        <Link href="">
         <Card title="BINARY SEARCH " number="Practical 12">
           <CanvasRevealEffect
             animationSpeed={3}
@@ -88,6 +111,7 @@ const CanvasRevealEffectDemo = () => {
             colors={[[125, 211, 252]]}
           />
         </Card>
+        </Link>
       </div>
     </>
   );
@@ -99,7 +123,7 @@ const Card = ({ title, number, children }: { title: string; number: string; chil
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem] relative"
+      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem]"
     >
       <AnimatePresence>
         {hovered && (
