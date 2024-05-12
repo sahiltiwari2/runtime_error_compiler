@@ -8,40 +8,40 @@ const CanvasRevealEffectDemo = () => {
   return (
     <>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
-        <Card title="siheflnaSD" number="Practical 1">
+        <Card title="TRANSPOSE OF MATRIX USING ARRAY" number="Practical 1">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
             colors={[[125, 211, 252]]}
           />
         </Card>
-        <Card title="AFJE'ad" number="Practical 2">
+        <Card title="ADD AND DELETE THE ELMENT FROM ARRAY" number="Practical 2">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="afeasdgarfe" number="Practical 3">
+        <Card title="ARRAY IMPLEMENTATION OF STACK " number="Practical 3">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
             colors={[[125, 211, 252]]}
           />
         </Card>
-        <Card title="daelhflwef" number="Practical 4">
+        <Card title="ARRAY IMPLEMENTATION OF QUEUE" number="Practical 4">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="EA;FJWPEJF;" number="Practical 5">
+        <Card title="LINKED LIST IMPLEMENTATION OF STACK" number="Practical 5">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
             colors={[[125, 211, 252]]}
           />
         </Card>
-        <Card title="ASLKDNLASDN" number="Practical 6">
+        <Card title="LINKED LIST IMPLEMENTATION OF QUEUE " number="Practical 6">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
@@ -49,39 +49,39 @@ const CanvasRevealEffectDemo = () => {
         </Card>
       </div>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
-      <Card title="AKSNDLASD" number="Practical 7">
+      <Card title="EXPRESSION EVALUATION" number="Practical 7">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="SAKDNLKASD" number="Practical 8">
+        <Card title="IMPLEMENTATION OF BINARY SEARCH TREES" number="Practical 8">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
             colors={[[125, 211, 252]]}
           />
         </Card>
-        <Card title="S;JS;ODMA;SDMA;EFD" number="Practical 9">
+        <Card title="REPRESENTATION OF TREE" number="Practical 9">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="SALKDLKDSNFAS" number="Practical 10">
+        <Card title="TREE TRAVERSAL-SEARCHING,DELETING " number="Practical 10">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
             colors={[[125, 211, 252]]}
           />
         </Card>
-        <Card title="SAKLDLASNDWD" number="Practical 11">
+        <Card title="LINEAR SEARCH " number="Practical 11">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="MSAKFNLASNDASLKND" number="Practical 12">
+        <Card title="BINARY SEARCH " number="Practical 12">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
