@@ -1,9 +1,9 @@
 import React from 'react'
-import Codes from "@/components/bcaCodes1stYear";
+import Codes from "@/components/bcaCodes1stYearJava";
 
 const page = () => {
   return (
-    <div><Codes/></div>
+    <div><Codes/> </div>
   )
 }
 
