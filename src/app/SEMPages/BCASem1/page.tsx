@@ -1,8 +1,9 @@
 import React from 'react'
+import Codes from "@/components/bcaCodes1stYear";
 
 const page = () => {
   return (
-    <div>BCA sem 1</div>
+    <div><Codes/></div>
   )
 }
 
