@@ -11,7 +11,7 @@ import LanguageSelector from "@/components/LanguageSelector";
 
 
 const CODE_SNIPPETS = {
-  'c': `#include <stdio.h>\n\n int main(){\n printf("Welcome to AICompile")\n}`,
+  'c': `//Code with the help of AI as your Assistent\n\n\n#include <stdio.h>\n\n int main(){\n printf("Welcome to AICompile")\n}`,
   'javascript': `\nfunction greet(name) {\n\tconsole.log("Hello, " + name + "!");\n}\n\ngreet("Alex");\n`,
   'typescript': `\ntype Params = {\n\tname: string;\n}\n\nfunction greet(data: Params) {\n\tconsole.log("Hello, " + data.name + "!");\n}\n\ngreet({ name: "Alex" });\n`,
   'python': `\ndef greet(name):\n\tprint("Hello, " + name + "!")\n\ngreet("Alex")\n`,
