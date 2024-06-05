@@ -8,16 +8,6 @@ import Editor from '@monaco-editor/react';
 import "monaco-editor/min/vs/editor/editor.main.css";
 
 export default function App() {
-  const [code, setCode] = useState("");
-
-  const handleCodeChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
-    setCode(event.target.value);
-  };
-  const handleRun = () => {
-
-    console.log(code);
-  };
-
   return (
     <>
       <div className="flex justify-center items-start mt-8 space-x-4">
@@ -36,16 +26,6 @@ export default function App() {
         
         <div style={{ border: '1px solid #ccc', borderRadius: '10px', width: '700px', height: '550px', position: 'relative' }}>
           <Editor
-            value={`
-// Code Here With the power of AI always ready to Help :)
-
-#include <stdio.h>
-              
-int main() {
-  printf("Welcome, To AI powered Symantical Compiler");
-  return 0;
-}
-`}
             language="c"
             theme="vs-dark"
             options={{
