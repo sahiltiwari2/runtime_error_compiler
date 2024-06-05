@@ -3,7 +3,7 @@ import Codes from "@/components/1stYear/bcaCodes1stYear";
 
 const page = () => {
   return (
-    <div><Codes/> </div>
+    <div><Codes/></div>
   )
 }
 

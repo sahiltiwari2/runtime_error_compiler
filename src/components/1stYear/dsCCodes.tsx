@@ -9,7 +9,7 @@ const CanvasRevealEffectDemo = () => {
   return (
     <>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
-      <Link href="">
+      <Link href="../../bca1stcCodes/c1">
         <Card title="TRANSPOSE OF MATRIX USING ARRAY" number="Practical 1">
           <CanvasRevealEffect
             animationSpeed={3}
