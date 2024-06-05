@@ -21,8 +21,14 @@ export default function App() {
   return (
     <>
       <div className="flex justify-center items-start mt-8 space-x-4">
-        <Button color="primary" variant="bordered" onClick={handleRun}>
-          Run
+        <Button color="primary" variant="bordered" onClick={handleRun} size="lg">
+          Run Code
+        </Button>
+        <Button color="secondary" variant="bordered" onClick={handleRun} size="lg">
+          Ask Ai to Help
+        </Button>
+        <Button color="warning" variant="bordered" onClick={handleRun} size="lg">
+          Tell Ai to Fix Code
         </Button>
       </div>
       <div className="p-10"></div>
@@ -30,12 +36,13 @@ export default function App() {
         
         <div style={{ border: '1px solid #ccc', borderRadius: '10px', width: '700px', height: '550px', position: 'relative' }}>
           <Editor
-            value={`// Code Here With the power of AI always ready to Help :)
+            value={`
+// Code Here With the power of AI always ready to Help :)
 
 #include <stdio.h>
               
 int main() {
-  printf("Hello, World!");
+  printf("Welcome, To AI powered Symantical Compiler");
   return 0;
 }
 `}
